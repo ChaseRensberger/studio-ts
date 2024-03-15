@@ -185,30 +185,32 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+            A multimedia production company based in New York City.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+            We employ content creators and journalists that are active on your
+            favorite platforms. Interested in working with us?{' '}
+            <Link href="/" className="underline underline-offset-4">
+              Get in touch.
+            </Link>
           </p>
         </FadeIn>
       </Container>
 
-      <Clients />
+      {/* <Clients /> */}
 
-      <CaseStudies caseStudies={caseStudies} />
+      {/* <CaseStudies caseStudies={caseStudies} /> */}
 
-      <Testimonial
+      {/* <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
         The team at Studio went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of
         those annoying permission dialogs.
-      </Testimonial>
+      </Testimonial> */}
 
-      <Services />
+      {/* <Services /> */}
 
       <ContactSection />
     </>

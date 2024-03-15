@@ -119,13 +119,11 @@ export function Footer() {
             <NewsletterForm />
           </div>
         </div> */}
-      <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
-        <Link href="/" aria-label="Home">
+      <div className="mb-12 mt-12 flex flex-wrap items-end justify-center gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+        {/* <Link href="/" aria-label="Home">
           <Logo className="h-8" fillOnHover />
-        </Link>
-        <p className="text-sm text-neutral-700">
-          J Inc. {new Date().getFullYear()}
-        </p>
+        </Link> */}
+        <p className="text-sm text-neutral-700">J Inc.</p>
       </div>
     </Container>
   )

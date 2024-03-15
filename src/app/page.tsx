@@ -185,11 +185,12 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            A multimedia production company based in New York City.
+            Making the impossible{' '}
+            <span className="text-emerald-600">possible.</span>
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We employ content creators and journalists that are active on your
-            favorite platforms. Interested in working with us?{' '}
+            We share memorable, exciting stories with thousands of people.
+            Interested in working with us?{' '}
             <Link href="/" className="underline underline-offset-4">
               Get in touch.
             </Link>

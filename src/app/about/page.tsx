@@ -43,8 +43,8 @@ function Culture() {
             are allowed to have LinkedIn profiles.
           </GridListItem>
           <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+            We don&apos;t care when our team works just as long as they are
+            working every waking second.
           </GridListItem>
           <GridListItem title="Compassion" invert>
             You never know what someone is going through at home and we make
@@ -194,11 +194,11 @@ export default async function About() {
         title="We make memorable & exciting content that just makes sense."
       >
         <p className="leading-10">
-          Whether it’s shot on Canon, RED cameras, or even iPhone, we work hard
-          to do every story justice through film. No matter the environment,
-          we’re always well equipped to create engaging content. With our team's
-          8 years of media experience, we know how to make content versatile,
-          innovative, and fun.
+          Whether it&apos;s shot on Canon, RED cameras, or even iPhone, we work
+          hard to do every story justice through film. No matter the
+          environment, we are always well equipped to create engaging content.
+          With our team&apos;s 8 years of media experience, we know how to make
+          content versatile, innovative, and fun.
         </p>
       </PageIntro>
       {/* <Container className="mt-16">

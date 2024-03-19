@@ -190,8 +190,9 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             We share memorable, exciting stories with thousands of people.
+            <br />
             Interested in working with us?{' '}
-            <Link href="/" className="underline underline-offset-4">
+            <Link href="/contact" className="underline underline-offset-4">
               Get in touch.
             </Link>
           </p>

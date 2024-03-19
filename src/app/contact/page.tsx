@@ -149,7 +149,10 @@ export default function Contact() {
   return (
     <>
       <PageIntro eyebrow="Contact us" title="">
-        <p>Building out this page, for now reach out at chase@studioj.mov</p>
+        <p>
+          Building out this page. For now, reach out at{' '}
+          <span className="font-bold">chase@studioj.mov</span>
+        </p>
       </PageIntro>
 
       {/* <Container className="mt-12 sm:mt-16 lg:mt-20"> */}
